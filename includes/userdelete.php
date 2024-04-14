@@ -23,6 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $pdo = null;
         $stmt = null;
+
+        //header function  is used to redirect the user to the index.php page after the user is deleted
         header("Location: ../index.php");
         die();
     } catch (PDOException $e) {
