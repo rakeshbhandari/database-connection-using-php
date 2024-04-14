@@ -22,6 +22,18 @@
             <button class="submit">Signup</button>
         </form>
     </div>
+    <div class="box5">
+        <h2>Post a comment</h2>
+        <form action="includes/comment.php" method="post">
+            <input type="text" name="username" placeholder="Username">
+            <br>
+            <input type="text" name="comment_text" class="cmt" placeholder="Your Comment">
+            <br>
+            <input type="users_id" name="users_id" placeholder="users_id">
+            <button class="submit">Post</button>
+        </form>
+    </div>
+
 
     <div class="box2">
         <h2>Change account</h2>
@@ -42,6 +54,16 @@
             <input type="password" class="pwd" name="pwd" placeholder="Password">
             <br>
             <button class="submit">Delete</button>
+        </form>
+    </div>
+
+    <div class="box4">
+        <h2>Search</h2>
+        <form class="searchform" action="search.php" method="post">
+            <label for="search">Search for users:</label>
+            <input type="text" id="search" name="usersearch" placeholder="Search.....">
+            <br>
+            <button class="submit">Search</button>
         </form>
     </div>
 
